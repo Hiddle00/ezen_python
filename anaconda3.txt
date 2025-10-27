@@ -1,0 +1,57 @@
+라이브러리간의 버전충돌 때문에 가상환경으로 구동을 많이 한다
+
+아나콘다3
+Python 3.13.5
+
+아나콘다 가상환경 목록
+conda env list
+
+가상환경 생성
+conda create -n myenv python=3.10
+
+가상환경 활성화
+conda activate myenv
+(download하는 lib의 종속성을 격리하기 위함)
+
+파이썬 라이브러리 설치
+pip install numpy
+(python install packege)   javax.mail springmail
+필요한 라이브러리를 모두 가져온다
+
+가상환경 비활성화
+conda deactivate
+
+가상환경 삭제
+conda remove -n myenv --all
+
+3.9버전 가상환경 생성
+conda create -n python_test python=3.9
+
+
+
+IDE
+1. pycham 편하다 유료
+2. vscode 
+3. spyder 
+4. colab
+
+
+https://www.data.go.kr/index.do
+data > information 
+	> 정보
+
+반정형
+
+
+상관관계분석
+상관없는 두 정보의 관계를 분석
+
+전처리(한글>형태소 분석)
+필요한 형태로 가공?
+>
+분석>AI활용
+
+jupyter
+같이 설치되는 라이브러리
+
+jupyter notebook
