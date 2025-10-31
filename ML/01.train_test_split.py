@@ -3,9 +3,7 @@
 
 import pandas as pd
 
-# iris.csv 파일을 읽어 들인다.
-
-
+# iris.csv 파일을 읽어 데이터프레임으로 변환한다.
 try:
     df = pd.read_csv("iris.csv")
     print(df.head(3))   #dataframe
@@ -24,7 +22,7 @@ print("=" * 30)
 # 데이터 인코딩 : 문자열 카테코리를 숫자로 변환
 # setosa => 0 / versicolor => 1 / virginica => 2
 species = ["setosa", "versicolor", "virginica"]
-for i in range(0,len(species)) :
+for i in range(0, len(species)) :
     #print(species[i])
     df["species"] = df["species"].str.replace(species[i],str(i))
 
@@ -47,4 +45,12 @@ print("=" * 30)
 # 독립 변수(X : sepal_length, sepal_width, petal_length, petal_width)
 X = df[ ["sepal_length", "sepal_width", "petal_length", "petal_width"] ]
 print(X)
+print("=" * 30)
+
+# 각각을 훈련 데이터와 테스트 데이터로 분리한다.
+X_train, X_test, y_train, y_test = train_test_split(X,y, random_state = 2)
+print(X_train.shape)
+print(X_test.shape)
+print(y_train.shape)
+print(y_test.shape)
 print("=" * 30)
