@@ -35,7 +35,13 @@ df.to_csv("iris_encode.csv")
 # 총 150개 데이터를 7:3으로 나눈다
 from sklearn.model_selection import train_test_split
 
-# 독립변수(X)와 종속 변수(y)를 분리한다.
+# 독립변수(X)와 종속 변수(y)를 각각 
+# 훈련 데이터와 테스트 데이터로 분리한다.
+# train_test_split() 기본적으로 75% : 25%
+# test_size : 테스트 데이터셋의 비율(float)이나 갯수(int) (default = 0.25)
+# train_size : 학습 데이터셋의 비율(float)이나 갯수(int) (default = test_size의 나머지)
+# random_state : 데이터 분할시 셔플이 이루어지는데 이를 위한 시드값 (int나 RandomState로 입력)
+# shuffle : 셔플여부설정 (default = True)
 
 #종속 변수(y)
 y = df["species"]

@@ -1,0 +1,13 @@
+Linear regression
+
+양의 상관관계
+음의 상관관계
+우연관계
+
+y = ax
+a = 가중치 
+이산값(classification,연속값(regression
+
+
+릿지,라쏘,엘라스틱넷,
+
