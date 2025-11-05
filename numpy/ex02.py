@@ -34,6 +34,7 @@ print(ones_array.shape)
 
 full_array = np.full((5, 2), 5)
 print(full_array)
+print("--" * 30)
 print(full_array.shape)
 #5행 2열 2차원배열을 생성하고
 #모든 요소를 5로 채운다

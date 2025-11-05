@@ -47,7 +47,10 @@ print(tensor[1][1][0])
 
 
 
-
+#------------------------------------------------------------
+import numpy as np
+arr = np.array(tensor)
+print(arr)
 
 
 
