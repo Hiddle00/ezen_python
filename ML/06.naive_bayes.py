@@ -19,12 +19,12 @@ print(item)
 item = okt.nouns(msg)
 print(item)
 """
-
+import warnings
+warnings.filterwarnings("ignore")
 #나이브베이즈 분류기를 이용한 문서분류
 
 #형태소 분석
-import warnings
-warnings.filterwarnings("ignore")
+
 
 #형태소 분석기 설치
 # conda install -c conda-forge jpype1
@@ -63,9 +63,10 @@ for row in range(total_rows):
     
     #문장에 대해서 형태소 분석을 수행한다.
     #tokens = okt.nouns(text) # 명사만 추출
-    tokens = okt.morphs(text) # 명사만 추출
+    tokens = okt.morphs(text) # 모든 품사 추출
     print(tokens)
     #나이브베이즈 학습을 위한 데이터를 가공한다.
+    #원핫 인코딩을 위한 전처리
     """
     #원래 데이터
     슬픔,A B C
