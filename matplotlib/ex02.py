@@ -35,7 +35,7 @@ plt.bar(category, value,
 plt.legend()
 plt.show()
 
-#수평(horigental) 막대그래프
+#수평(horizontal) 막대그래프
 plt.barh(category, value)
 plt.show()
 
