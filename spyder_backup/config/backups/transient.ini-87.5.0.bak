@@ -1,0 +1,113 @@
+[main]
+completion/size = (300, 180)
+window/position = (0, 0)
+window/size = (1920, 1017)
+version = 87.5.0
+current_version = 6.1.0
+recent_files = ['C:\\Users\\MYCOM\\.spyder-py3\\temp.py']
+historylog_filename = C:\Users\MYCOM\.spyder-py3\history.log
+window/state = 000000ff00000004fd0000000100000000000007800000038ffc0100000003fc00000000000001100000000000fffffffaffffffff0100000002fb0000003000500072006f006a006500630074004500780070006c006f007200650072005700690064006700650074005f006400770000000000ffffffff000000c800fffffffb00000030004f00750074006c0069006e0065004500780070006c006f007200650072005700690064006700650074005f006400770000000000ffffffff0000009e00fffffffb000000260045006400690074006f0072004d00610069006e005700690064006700650074005f006400770100000000000003bd0000013400fffffffc000003c4000003bc0000012e00fffffffc0200000002fc00000051000001c4000000e20100001cfa000000000200000009fb0000001a00480065006c0070005700690064006700650074005f006400770100000000ffffffff0000007b00fffffffb00000032005600610072006900610062006c0065004500780070006c006f007200650072005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb0000002200440065006200750067006700650072005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb0000002200500072006f00660069006c00650072005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb0000001c0050006c006f00740073005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb00000022004500780070006c006f007200650072005700690064006700650074005f006400770100000000ffffffff0000007b00fffffffb0000002800460069006e00640049006e00460069006c00650073005700690064006700650074005f006400770000000000ffffffff000000e500fffffffb0000001e005000790064006f006300420072006f0077007300650072005f006400770000000000ffffffff0000003100fffffffb0000001e00500079006c0069006e0074005700690064006700650074005f006400770000000000ffffffff000000f100fffffffc0000021c000001c40000009e0100001cfa000000000200000003fb0000002e00490050007900740068006f006e0043006f006e0073006f006c0065005700690064006700650074005f006400770100000000ffffffff0000008000fffffffb000000200048006900730074006f00720079005700690064006700650074005f006400770100000000ffffffff0000008100fffffffb000000200043006f006e0073006f006c0065005700690064006700650074005f006400770000000000ffffffff0000007b00ffffff000000000000038f00000004000000040000000800000008fc0000000100000002000000060000001800660069006c0065005f0074006f006f006c0062006100720100000000ffffffff00000000000000000000001600720075006e005f0074006f006f006c0062006100720100000118ffffffff00000000000000000000001a00640065006200750067005f0074006f006f006c00620061007201000001f8ffffffff00000000000000000000001e00700072006f00660069006c0065005f0074006f006f006c00620061007201000002a0ffffffff000000000000000000000018006d00610069006e005f0074006f006f006c0062006100720100000348ffffffff0000000000000000000000320077006f0072006b0069006e0067005f006400690072006500630074006f00720079005f0074006f006f006c00620061007201000003f0ffffffff0000000000000000
+
+[main_interpreter]
+custom_interpreters_list = []
+custom_interpreter = 
+last_envs = {'Conda: spyder-runtime': ('c:\\users\\mycom\\appdata\\local\\spyder-6\\envs\\spyder-runtime\\python.exe', 'Python 3.12.11'), 'Conda: base': ('C:\\Users\\MYCOM\\anaconda3\\python.exe', 'Python 3.13.5')}
+executable = C:\Users\MYCOM\AppData\Local\spyder-6\envs\spyder-runtime\python.exe
+
+[onlinehelp]
+zoom_factor = 0.8
+
+[preferences]
+dialog_size = (900, 670)
+
+[project_explorer]
+max_recent_projects = 10
+recent_projects = []
+current_project_path = None
+scrollbar_position = (0, 0)
+expanded_state = None
+
+[pythonpath_manager]
+spyder_pythonpath = []
+prioritize = False
+system_paths = {}
+user_paths = {}
+config_options_migrated = True
+path = ()
+not_active_path = ()
+system_path = ()
+
+[quick_layouts]
+place_holder = 
+names = ['Spyder Default Layout', 'Rstudio layout', 'Matlab layout', 'Horizontal split', 'Vertical split']
+order = ['Spyder Default Layout', 'Rstudio layout', 'Matlab layout', 'Horizontal split', 'Vertical split']
+active = ['Spyder Default Layout', 'Rstudio layout', 'Matlab layout', 'Horizontal split', 'Vertical split']
+ui_names = ['Default layout', 'Rstudio layout', 'Matlab layout', 'Horizontal split', 'Vertical split']
+first_time = False
+layout_0/size = (1260, 2428)
+layout_0/is_maximized = True
+layout_0/is_fullscreen = False
+layout_0/position = (10, 10)
+layout_0/state = None
+layout_0/statusbar = False
+layout_1/size = (1260, 2428)
+layout_1/is_maximized = True
+layout_1/is_fullscreen = False
+layout_1/position = (10, 10)
+layout_1/state = None
+layout_1/statusbar = False
+layout_2/size = (1260, 2428)
+layout_2/is_maximized = True
+layout_2/is_fullscreen = False
+layout_2/position = (10, 10)
+layout_2/state = None
+layout_2/statusbar = False
+layout_3/size = (1260, 2428)
+layout_3/is_maximized = True
+layout_3/is_fullscreen = False
+layout_3/position = (10, 10)
+layout_3/state = None
+layout_3/statusbar = False
+layout_4/size = (1260, 2428)
+layout_4/is_maximized = True
+layout_4/is_fullscreen = False
+layout_4/position = (10, 10)
+layout_4/state = None
+layout_4/statusbar = False
+layout_default/size = (1260, 2428)
+layout_default/is_maximized = True
+layout_default/is_fullscreen = False
+layout_default/position = (10, 10)
+layout_default/state = None
+layout_default/statusbar = False
+internal_dockable_plugins = ['internal_console', 'debugger', 'editor', 'explorer', 'find_in_files', 'help', 'historylog', 'ipython_console', 'onlinehelp', 'outline_explorer', 'plots', 'profiler', 'project_explorer', 'pylint', 'variable_explorer']
+last_visible_plugins = ['editor', 'help', 'ipython_console']
+layout_current_temp/size = (1920, 1017)
+layout_current_temp/is_maximized = True
+layout_current_temp/is_fullscreen = False
+layout_current_temp/position = (0, 0)
+layout_current_temp/state = 000000ff00000004fd0000000100000000000007800000038ffc0100000003fc00000000000000c80000000000fffffffaffffffff0100000002fb0000003000500072006f006a006500630074004500780070006c006f007200650072005700690064006700650074005f006400770000000000ffffffff000000c800fffffffb00000030004f00750074006c0069006e0065004500780070006c006f007200650072005700690064006700650074005f006400770000000000ffffffff0000009e00fffffffb000000260045006400690074006f0072004d00610069006e005700690064006700650074005f006400770100000000000003bd0000012200fffffffc000003c4000003bc0000012e00fffffffc0200000002fc00000051000001c4000000e20100001cfa000000030200000009fb0000001a00480065006c0070005700690064006700650074005f006400770100000000ffffffff0000007b00fffffffb00000032005600610072006900610062006c0065004500780070006c006f007200650072005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb0000002200440065006200750067006700650072005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb0000002200500072006f00660069006c00650072005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb0000001c0050006c006f00740073005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb00000022004500780070006c006f007200650072005700690064006700650074005f006400770100000000ffffffff0000007b00fffffffb0000002800460069006e00640049006e00460069006c00650073005700690064006700650074005f006400770000000000ffffffff000000e500fffffffb0000001e005000790064006f006300420072006f0077007300650072005f006400770000000000ffffffff0000003100fffffffb0000001e00500079006c0069006e0074005700690064006700650074005f006400770000000000ffffffff000000f100fffffffc0000021c000001c40000009e0100001cfa000000000200000003fb0000002e00490050007900740068006f006e0043006f006e0073006f006c0065005700690064006700650074005f006400770100000000ffffffff0000008000fffffffb000000200048006900730074006f00720079005700690064006700650074005f006400770100000000ffffffff0000008100fffffffb000000200043006f006e0073006f006c0065005700690064006700650074005f006400770000000000ffffffff0000007b00ffffff000000000000038f00000004000000040000000800000008fc0000000100000002000000060000001800660069006c0065005f0074006f006f006c0062006100720100000000ffffffff00000000000000000000001600720075006e005f0074006f006f006c0062006100720100000118ffffffff00000000000000000000001a00640065006200750067005f0074006f006f006c00620061007201000001f8ffffffff00000000000000000000001e00700072006f00660069006c0065005f0074006f006f006c00620061007201000002a0ffffffff000000000000000000000018006d00610069006e005f0074006f006f006c0062006100720100000348ffffffff0000000000000000000000320077006f0072006b0069006e0067005f006400690072006500630074006f00720079005f0074006f006f006c00620061007201000003f0ffffffff0000000000000000
+layout_current_temp/statusbar = True
+
+[pylint]
+history_filenames = []
+
+[editor]
+splitter_state = '000000ff00000001000000010000057301ffffffff010000000100'
+filenames = ['C:\\Users\\MYCOM\\.spyder-py3\\untitled1.py']
+bookmarks = {}
+file_uuids = {'C:\\Users\\MYCOM\\.spyder-py3\\temp.py': '59bd5518-fae2-4029-ae59-83a47a3068fe', 'C:\\Users\\MYCOM\\.spyder-py3\\untitled0.py': '2796822a-734f-43ab-9ead-a1d43772ab6f', 'C:\\Users\\MYCOM\\.spyder-py3\\untitled1.py': '4694f3f1-477d-4bcd-b1da-0c0005dcb87c'}
+layout_settings = {'hexstate': '000000ff00000001000000010000011700ffffffff010000000100', 'sizes': [951], 'splitsettings': [(False, 'C:\\Users\\MYCOM\\.spyder-py3\\untitled1.py', [15])]}
+
+[find_in_files]
+exclude_index = 0
+search_in_index = 0
+
+[run]
+parameters = {'debugger': {('py', 'file'): {'params': {'fd3d0c9e-e87a-4f2b-bd7d-c5410e9ec4a0': {'uuid': 'fd3d0c9e-e87a-4f2b-bd7d-c5410e9ec4a0', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'file'): {'params': {'f16eaf9d-3536-4ec3-aefc-48f34297af30': {'uuid': 'f16eaf9d-3536-4ec3-aefc-48f34297af30', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('py', 'cell'): {'params': {'32650609-01b2-46bd-85c9-4832ff7ad016': {'uuid': '32650609-01b2-46bd-85c9-4832ff7ad016', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'cell'): {'params': {'4425c501-361f-4896-ad69-e4e48fbe94ec': {'uuid': '4425c501-361f-4896-ad69-e4e48fbe94ec', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('py', 'selection'): {'params': {'ecd33745-af26-421c-908f-d16d1551cf8d': {'uuid': 'ecd33745-af26-421c-908f-d16d1551cf8d', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'selection'): {'params': {'c8675abb-29e6-48da-8a04-2b53e82684d9': {'uuid': 'c8675abb-29e6-48da-8a04-2b53e82684d9', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}}, 'external_terminal': {('py', 'file'): {'params': {'40ba24f1-7cb2-4a6c-b38c-2d6db46d2e17': {'uuid': '40ba24f1-7cb2-4a6c-b38c-2d6db46d2e17', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'args_enabled': False, 'args': '', 'interact': True, 'python_args_enabled': False, 'python_args': ''}}, 'file_uuid': None, 'default': True}}}, ('bat', 'file'): {'params': {'8b0dc6d0-141a-45f6-8d0d-7186654114a7': {'uuid': '8b0dc6d0-141a-45f6-8d0d-7186654114a7', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'interpreter': 'cmd.exe', 'interpreter_opts_enabled': True, 'interpreter_opts': '/K', 'script_opts_enabled': False, 'script_opts': '', 'close_after_exec': False}}, 'file_uuid': None, 'default': True}}}, ('bat', 'selection'): {'params': {'2d8ad6a8-f967-43b2-8622-ed2033596ad1': {'uuid': '2d8ad6a8-f967-43b2-8622-ed2033596ad1', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'interpreter': 'cmd.exe', 'interpreter_opts_enabled': True, 'interpreter_opts': '/K', 'script_opts_enabled': False, 'script_opts': '', 'close_after_exec': False}}, 'file_uuid': None, 'default': True}}}, ('ps1', 'file'): {'params': {'e2e7eeae-7003-4ce5-91f0-7fb6577645de': {'uuid': 'e2e7eeae-7003-4ce5-91f0-7fb6577645de', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'interpreter': 'powershell.exe', 'interpreter_opts_enabled': False, 'interpreter_opts': '', 'script_opts_enabled': False, 'script_opts': '', 'close_after_exec': False}}, 'file_uuid': None, 'default': True}}}, ('ps1', 'selection'): {'params': {'13baa307-eaf9-4fbd-b550-917556a4b3ce': {'uuid': '13baa307-eaf9-4fbd-b550-917556a4b3ce', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'interpreter': 'powershell.exe', 'interpreter_opts_enabled': False, 'interpreter_opts': '', 'script_opts_enabled': False, 'script_opts': '', 'close_after_exec': False}}, 'file_uuid': None, 'default': True}}}}, 'profiler': {('py', 'file'): {'params': {'1c3970dc-b1f3-4bfd-8a17-db02bff05127': {'uuid': '1c3970dc-b1f3-4bfd-8a17-db02bff05127', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'file'): {'params': {'dc4eefb4-e15b-499c-a164-e41615ec2cc7': {'uuid': 'dc4eefb4-e15b-499c-a164-e41615ec2cc7', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('py', 'cell'): {'params': {'dc1059f6-51b4-407b-ad6e-e347c2b17a3c': {'uuid': 'dc1059f6-51b4-407b-ad6e-e347c2b17a3c', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'cell'): {'params': {'1ebd7810-7014-443a-b8cd-e835b7012175': {'uuid': '1ebd7810-7014-443a-b8cd-e835b7012175', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('py', 'selection'): {'params': {'acea9659-9d3e-40a5-b64f-9949f7cc96d4': {'uuid': 'acea9659-9d3e-40a5-b64f-9949f7cc96d4', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'selection'): {'params': {'35358116-de0b-44ca-9332-17af36092650': {'uuid': '35358116-de0b-44ca-9332-17af36092650', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}}, 'pylint': {('py', 'file'): {'params': {'fe9b73f9-07cb-4551-bd93-dc3b963b772a': {'uuid': 'fe9b73f9-07cb-4551-bd93-dc3b963b772a', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}}, 'ipython_console': {('py', 'file'): {'params': {'bc339777-bc28-4816-a231-b01f8483662d': {'uuid': 'bc339777-bc28-4816-a231-b01f8483662d', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'file'): {'params': {'b1d01a6c-8a8b-4cd3-b145-252ef4a625ba': {'uuid': 'b1d01a6c-8a8b-4cd3-b145-252ef4a625ba', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('py', 'cell'): {'params': {'9ddb388b-d656-48c1-b30b-06e5827d2506': {'uuid': '9ddb388b-d656-48c1-b30b-06e5827d2506', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'cell'): {'params': {'d8e32f28-5c89-44f7-980a-0533a3d36722': {'uuid': 'd8e32f28-5c89-44f7-980a-0533a3d36722', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('py', 'selection'): {'params': {'c596bc4c-4e08-4518-a75c-d91b9bbbab38': {'uuid': 'c596bc4c-4e08-4518-a75c-d91b9bbbab38', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'selection'): {'params': {'591eb119-2fca-4808-a09b-828e1f73b5f5': {'uuid': '591eb119-2fca-4808-a09b-828e1f73b5f5', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('pyx', 'file'): {'params': {'61e080d5-8a85-4b5e-b20b-c587310eed6c': {'uuid': '61e080d5-8a85-4b5e-b20b-c587310eed6c', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}}}
+last_used_parameters_per_executor = {'59bd5518-fae2-4029-ae59-83a47a3068fe': [{'executor': 'ipython_console', 'selected': 'bc339777-bc28-4816-a231-b01f8483662d'}], '2796822a-734f-43ab-9ead-a1d43772ab6f': [{'executor': 'ipython_console', 'selected': 'bc339777-bc28-4816-a231-b01f8483662d'}], '4694f3f1-477d-4bcd-b1da-0c0005dcb87c': [{'executor': 'ipython_console', 'selected': 'bc339777-bc28-4816-a231-b01f8483662d'}]}
+last_configured_executor = {}
+
+[outline_explorer]
+scrollbar_position = None
+
