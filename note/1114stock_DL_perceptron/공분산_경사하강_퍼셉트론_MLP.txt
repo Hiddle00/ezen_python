@@ -1,0 +1,10 @@
+최소제곱법으로 w의 최소치를 찾고
+경사하강법으로 
+
+엑셀 인코딩 옵션
+
+아반투
+https://m.blog.naver.com/samsjang/221030487369
+인공신경망의 순전파와 역전파
+https://blog.naver.com/koreadeep/222600824716
+
