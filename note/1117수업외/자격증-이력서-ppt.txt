@@ -1,0 +1,8 @@
+python class
+접근 제한자 x
+상수 x
+
+mcp,mcf,sqld
+커뮤니케이션,
+
+ppt -> pdf로 변환할것
