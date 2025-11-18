@@ -1,0 +1,25 @@
+create database flask_db;
+
+use flask_db;
+create table users(
+ id varchar(255) primary key,
+ pw varchar(255) not null,
+ nick varchar(255) not null
+);
+
+create table note(
+ no int primary key auto_increment,
+ title varchar(255) not null,
+ content text not null,
+ author varchar(255),
+ foreign key(author) references users(id)
+);
+회원정보테이블
+아이디
+비밀번호
+닉네임
+
+노트테이블
+제목
+본문
+작성자
