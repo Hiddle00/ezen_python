@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>파일 업로드</h1>
+    <!-- localhost:5000/upload -->
+    <form action="/multi-upload" method="post" enctype="multipart/form-data">
+        <input multiple type="file" name="file">
+        <input type="submit" value="upload">
+    </form>
+</body>
+</html>

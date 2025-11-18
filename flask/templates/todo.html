@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./static/css/style.css"> -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <!-- jinja템플릿을 이용한 정적파일 절대경로 -->
+</head>
+<body>
+    <!-- jinja템플릿의 반복문 -->
+    <ul>
+        {% for todo in todos %}
+            <li>{{todo}}</li>
+        {% endfor %}
+        {% for todo in todos %}
+            <li>{{todo["title"]}} {{todo["body"]}} {{todo[2]}}</li>
+            <li>{{todo["title"]}}</li>
+            <li>{{todo["body"]}}</li>
+            <li>{{todo["author"]}}</li>
+        {% endfor %}
+    </ul>
+
+    <!-- jinja템플릿에서 세션 꺼내오기 -->
+    {{session["id"]}}
+
+</body>
+</html>
