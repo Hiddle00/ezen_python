@@ -23,11 +23,13 @@ app = Flask(__name__)
 if  not os.path.exists("uploads") :     #없으면 True / 있으면 False
     os.makedirs("uploads")
 
+#홈 라우터
 @app.route("/")
 def home() :
     return render_template("upload.html")
 #localhost:5000로 접속하면 templates/upload.html파일을 반환
 
+#단일 업로드 라우터
 @app.route("/upload", methods=["POST"])
 def upload() :
     #print(request.files)
@@ -52,6 +54,7 @@ def upload() :
         return "파일 업로드 성공"
     return "파일 업로드 실패"
 
+#멀티 업로드 라우터
 @app.route("/multi-upload", methods=["POST"])
 def multi_upload() :
     files = request.files.getlist("file")
