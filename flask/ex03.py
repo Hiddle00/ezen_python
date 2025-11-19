@@ -7,8 +7,10 @@ Created on Mon Nov 17 11:42:53 2025
 #get요청 파라미터, post요청 파라미터 처리
 from flask import Flask, request, render_template, redirect, session
 app = Flask(__name__)
+
 #세션 암호화 키 설정
 app.secret_key = "b"   #세션 탈취를 막기위한 기본키
+
 #get파라미터 처리
 @app.route("/search")
 def search() :
@@ -30,6 +32,7 @@ def search() :
 def login() :
     return render_template("login.html")
     #templates/login.html
+
 #login 처리
 @app.route("/login", methods=["POST"])
 def loginok() :

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if session["user"] %}
+        <div class="">환영합니다 {{session["user"]["id"]}}님</div>
+        <form action="/user/logout" method="post">
+            <button type="submit">로그아웃</button>
+        </form>
+        <form action="/user/leave" method="post">
+            <button type="submit">회원탈퇴</button>
+        </form>
+    {% else %}
+        <a href="/user/login"><button type="button">로그인</button></a>
+    {% endif %}
+    <div class="">홈 화면입니다!</div>
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+1. url 수정
+/login -> /user/login
+/modify -> /user/modify
+
+2.
+veiw/user/index.html
+
+templates
+
+
