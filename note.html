@@ -17,3 +17,27 @@
 
 <!-- jinja템플릿에서 세션 꺼내오기 -->
 {{session["id"]}}
+
+# @user_bp 데코레이터가 붙은 라우터는 전부 앞에 /user가 붙는다.
+user_bp = Blueprint("user", __name__, url_prefix="/user")
+
+#글삭제 처리 라우터
+@note_bp.route("/<int:note_no>/del", methods=["POST"])
+def delete(note_no) :
+    #로그인 했는지, 게시글의 작성자가 로그인한 사용자와 동일한지
+    user = session.get("user")
+    #검증
+    if not user :
+        return redirect("/notes")
+    #검증
+    dao = NoteDAO()
+    note = dao.note(note_no)
+    if not note :
+        return redirect("/notes")
+    #검증
+    if user["id"] != note["author"] :
+        return redirect("/notes")
+    
+    dao = NoteDAO()
+    dao.delete(note_no)
+    return redirect("/notes")

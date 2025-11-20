@@ -17,6 +17,7 @@ print("--" * 25)
 #각 컬럼과 데이터 간의 관계확인을 위한 시각화
 import matplotlib.pyplot as plt
 import seaborn as sns
+#runtime configuration 런타임동안 모든플롯에 적용할 기본 설정
 plt.rc("font", family="Malgun Gothic")
 
 plt.figure(figsize=(12,12))
