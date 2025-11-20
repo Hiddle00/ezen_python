@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="">{{note.get("title")}}</div>
+    <div class="">{{note.get("content")}}</div>
+    <a href="/notes/"><button type="button">글목록</button></a>
+    <!-- 로그인 했고, 작성자가 나랑 같으면 보인다 -->
+    {% if session["user"] and session["user"]["id"] == note["author"]%}
+        <a href="/notes/{{note['no']}}/modify"><button type="button">수정</button></a>
+        <form action="/notes/{{note['no']}}/delete">
+            <button type="submit">삭제</button>
+        </form>
+    {% endif %}
+
+</body>
+</html>

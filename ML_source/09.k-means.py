@@ -8,8 +8,8 @@ from sklearn.datasets import load_digits
 from sklearn.decomposition import PCA
 
 #k-means 알고리즘 설명용 이미지 출력
-mglearn.plots.plot_kmeans_algorithm()
-plt.show()
+#mglearn.plots.plot_kmeans_algorithm()
+#plt.show()
 
 #=====================================
 #필기체 이미지 데이터를 로딩한다.
@@ -24,7 +24,7 @@ print(len(digits["data"]))
 
 #필기체 이미지 히트맵 출력
 fig, axes = plt.subplots(2, 5, figsize=(10, 5),
-                         subplot_kw={'xticks':(), 
+                         subplot_kw={'xticks':(),
                                      'yticks': ()})
 
 for ax, img in zip(axes.ravel(), digits.images):
@@ -40,7 +40,7 @@ print(digits.data[0])
 print("=" * 30)
 
 
-#=====================================  
+#=====================================
 #주성분을 챠트로 표시
 from matplotlib import rc
 #한글폰트 설정

@@ -3,7 +3,7 @@
 /modify -> /user/modify
 
 2.
-veiw/user/index.html
+view/user/index.html
 
 templates
 

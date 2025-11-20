@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <!-- <li><a href="/notes/1">1번 제목</a></li>
+        <li><a href="/notes/2">2번 제목</a></li> -->
+        {% for note in notes %}
+            <li><a href="/notes/{{note.get('no')}}">{{note.no}}번 {{note.title}}</a></li>
+        {% endfor %}
+    </ul>
+    {% if session.get("user") %}
+        <a href="/notes/write"><button type="button">글쓰기</button></a>
+    {% endif %}
+    <a href="/"><button type="button">메인</button></a>
+</body>
+</html>

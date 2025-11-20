@@ -1,12 +1,13 @@
 from flask import Flask, render_template, request, redirect, session
 #분리된 라우터 파일 import
 from routes.user import user_bp
-
+from routes.note import note_bp
 app = Flask(__name__)
 app.secret_key = "ezen" #암호화? 복호키?
 
 #분리된 user 라우터를 flask에 등록
 app.register_blueprint(user_bp)
+app.register_blueprint(note_bp)
 
 #user가 접근하는 url
 """
