@@ -8,6 +8,7 @@ Created on Thu Nov  6 15:31:15 2025
 import warnings
 warnings.filterwarnings("ignore")
 import pandas as pd
+import numpy as np
 
 iris_df = pd.read_csv("iris_encode.csv")
 print(iris_df.head())
@@ -21,6 +22,7 @@ print(X)
 print("--" * 25)
 y = iris_df["species"]
 print(y)
+print(np.unique(y))
 print("--" * 25)
 
 # 총 150개 데이터를 7:3으로 나눈다
@@ -71,6 +73,7 @@ species = ["setosa" , "versicolor", "virginica"]
 
 test_data = [ [ 4.3, 2., 6.1, 2.7 ] ]
 predict = rnf.predict(test_data)
+print(rnf.predict_proba(test_data))
 print(predict)
 print(species[predict[0]])
 print("=" * 30)
