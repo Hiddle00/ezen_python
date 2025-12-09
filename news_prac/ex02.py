@@ -12,7 +12,7 @@ import pymysql
 conn = pymysql.connect(
     host="localhost",
     user="root",
-    password="ezen"   
+    password="ezen"
 )
 #굳이 python으로 db를 만들 필요는 없다
 #

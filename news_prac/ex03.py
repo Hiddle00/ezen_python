@@ -50,7 +50,9 @@ content = df["내용"]
 # l = ["a", "b", "c", "d"]
 # s = ","
 # s.join(l)
+# == "a,b,c,d"
 # " ".join(l)
+# == "a b c d"
 # =============================================================================
 text = " ".join(content)
 #print(text[:2000])
@@ -99,7 +101,7 @@ print(dict(common_word_count))
 #pip install wordcloud
 from wordcloud import WordCloud
 wordcloud = WordCloud(
-    font_path="malgun.ttf", 
+    font_path="malgun.ttf",
     background_color="white",
     width=800,
     height=600
